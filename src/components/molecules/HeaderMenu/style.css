@@ -1,0 +1,40 @@
+.Container2 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    min-height: 80px;
+    justify-content: space-between;
+    padding: 0 60px;
+   
+}
+
+.Menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.Menu2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.Menu img{
+    width: 150px;
+}
+
+.Menu h1{
+    font-size: 17px;
+    margin: 0 2vw;
+}
+
+.separate{
+    margin: 0 5px;
+    height: 40px;
+    width: 1px;
+    border-left: 1px solid rgba(255, 255, 255, 0.247);
+}

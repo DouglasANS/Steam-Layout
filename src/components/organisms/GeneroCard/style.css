@@ -1,0 +1,27 @@
+.generoContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 20px; 
+    position: relative;
+}
+
+.titles{
+    color: rgba(224, 224, 224, 0.247);
+}
+
+.titles:hover{
+    color: #3ce1f5;
+    cursor: pointer;
+    user-select: none;
+}
+
+.titleGenero{
+    color: #fff;
+    transform: rotate(90deg);
+    top: 254px;
+    right: -40px;
+    position: absolute;
+    letter-spacing: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

@@ -1,0 +1,48 @@
+.optionsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 10px;
+}
+
+.options{
+    margin: 5px 0;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    
+}
+
+.options:hover {
+    background-color: #36c6d650 ;
+    
+}
+
+.options:hover .iconOptions {
+    color: #3ce1f5;
+    
+}
+
+.options:hover h5{
+    color: #3ce1f5;
+}
+
+.options h5{
+    color: rgba(224, 224, 224, 0.247);
+    width: 60px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    font-size: 12px;
+
+}
+
+.iconOptions{
+    margin-bottom: 3px
+}

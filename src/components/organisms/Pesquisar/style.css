@@ -1,0 +1,38 @@
+.pesquisarContainer{
+    padding: 0px 30px;
+}
+
+.destaque{
+    color: #fff;
+    margin-left: 200px;
+    font-size: 17px;
+}
+
+.inputPesquisar{
+    width: 200px;
+    height: 35px;
+    background-color: rgba(199, 199, 199, 0.178);
+    border-radius: 5px;
+    z-index: 0;
+    border: none;
+    outline: none;
+    text-indent: 10px;
+}
+
+.pesquisarIdioma{
+    font-size: 17px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.iconPesquisarLupa{
+    top: 5px;
+    right: 5px;
+    position: absolute;
+    color: beige;
+}
+
+.iconPesquisarArrow{
+    margin-left: 5px;
+    color: #fff;
+}
