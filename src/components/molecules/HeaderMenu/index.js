@@ -10,16 +10,16 @@ export default function HeaderMenu() {
     <div className='Container2'>
         <div className='Menu'>
           <img alt="Steam Logo" src={steamLogo} />
-          <Link style={{textDecoration: 'none', color: '#fff'}} to={`loja`}><h1>Loja</h1></Link>
-          <Link style={{textDecoration: 'none', color: '#fff'}} to={`comunidade/`}><h1>Comunidade </h1></Link>
-          <Link style={{textDecoration: 'none', color: '#fff'}} to={`categoria/`}><h1>Categoria</h1></Link>
-          <Link style={{textDecoration: 'none', color: '#fff'}} to={`sobre/`}><h1>Sobre</h1></Link>
-          <Link style={{textDecoration: 'none', color: '#fff'}} to={`suporte/`}><h1>Suporte</h1></Link>
+          <Link style={{textDecoration: 'none', color: '#fff'}} to={`/`}><h1>Loja</h1></Link>
+          <Link style={{textDecoration: 'none', color: '#fff'}} to={`/`}><h1>Comunidade </h1></Link>
+          <Link style={{textDecoration: 'none', color: '#fff'}} to={`/`}><h1>Categoria</h1></Link>
+          <Link style={{textDecoration: 'none', color: '#fff'}} to={`/`}><h1>Sobre</h1></Link>
+          <Link style={{textDecoration: 'none', color: '#fff'}} to={`/`}><h1>Suporte</h1></Link>
         </div>
         <div className='Menu2'>
           <SimpleIconButton title={'Download Steam'} icon={faCloudDownload} />
           <div className='separate'></div>
-          <Link style={{textDecoration: 'none', color: '#fff'}} to={`login/`}><h4>Iniciar Sessão</h4></Link>
+          <Link style={{textDecoration: 'none', color: '#fff'}} to={`/`}><h4>Iniciar Sessão</h4></Link>
         </div>
     </div>
   )

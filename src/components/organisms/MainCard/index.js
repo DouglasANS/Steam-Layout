@@ -8,7 +8,7 @@ import CarouselCard from '../../molecules/CarouselCard'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronRight } from '@fortawesome/free-solid-svg-icons'
 
-export default function MainCard({data, currentGameSelected, handleChangeGame}) {
+export default function MainCard({data, currentGameSelected, handleChangeGame, resetPackImg}) {
   return (
     <div className='MainCard'>
         <img className='SvgTeste' src={teste}/>
@@ -24,7 +24,7 @@ export default function MainCard({data, currentGameSelected, handleChangeGame}) 
             <div className='Info'>
                 <div className='InfoHeader'>
                     <h3>Promoção Especial</h3>
-                    <a>Ver Mais</a>
+                    <a style={{cursor: 'pointer'}}>Ver Mais</a>
 
                 </div>
 
@@ -53,7 +53,7 @@ export default function MainCard({data, currentGameSelected, handleChangeGame}) 
                 
             </div>
         </div>
-        <CarouselCard data={data[currentGameSelected].packImages} />
+        <CarouselCard data={data[currentGameSelected].packImages} resetPackImg={resetPackImg} />
         </div>
 
         <FontAwesomeIcon className='ArrowRightMainCard' onClick={()=>{handleChangeGame()}} color='#3ce1f5' size='xl' icon={faChevronRight}/>

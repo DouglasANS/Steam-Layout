@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React, { useEffect, useRef, useState } from 'react'
 import './style.css'
 
-export default function CarouselCard({data}) {
+export default function CarouselCard({data, resetPackImg}) {
    const [dataImg, setDataImg] = useState([])
     const countRef = useRef(0)
     const currentActiveImg = useRef(0)
@@ -16,7 +16,8 @@ export default function CarouselCard({data}) {
 
     setDataImg(newData)
     countRef.current = 0
-   },[data])
+    currentActiveImg.current = 0
+   },[data, resetPackImg]) 
 
    const handleChangeImg = () =>{
     var newActive = dataImg
@@ -35,9 +36,6 @@ export default function CarouselCard({data}) {
 
     console.log(newActive)
     setDataImg([...newActive])
-    
-
-
    }
 
   return (

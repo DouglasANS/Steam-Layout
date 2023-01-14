@@ -2,6 +2,7 @@ import backValhalla from './assets/img/backValhalla.png'
 import eivor from './assets/img/eivor.png'
 import ellie from './assets/img/ellie.png'
 import kratos from './assets/img/kratos.png'
+import backgod from './assets/img/backgod.png'
 
 export const data = [
     {
@@ -26,7 +27,7 @@ export const data = [
         price: '299,90',
         promotionPrice: '189,90',
         CenterImage: ellie,
-        backgroundCenterImage: 'https://www.dci.com.br/wp-content/uploads/2020/12/the-last-of-us-parte-2-jogo.jpg',
+        backgroundCenterImage: 'https://programadoresbrasil.com.br/wp-content/uploads/2020/06/thelast2-1024x465.jpg',
         packImages: [
             'https://www.comboinfinito.com.br/principal/wp-content/uploads/2020/04/the-last-of-us-2.jpg',
             'https://mlbtbcqppupm.i.optimole.com/cb:II15~5a0ea/w:1244/h:700/q:90/https://blog.newtonpaiva.br/wp-content/uploads/2020/10/maxresdefault.jpg',
@@ -37,12 +38,12 @@ export const data = [
 
     },
     {
-        title: "The Last of Us Part II",
+        title: "God of War Ragnarök",
         category: ['Ação', 'Aventura', 'Vikings'],
         price: '259,90',
         promotionPrice: '199,90',
         CenterImage: kratos,
-        backgroundCenterImage: 'https://viciados.net/wp-content/uploads/2022/09/god-of-war-ragnarok-trailer-dublado-pt-br.webp',
+        backgroundCenterImage: backgod,
         packImages: [
             'https://image.api.playstation.com/vulcan/img/rnd/202010/2217/ax0V5TYMax06mLzmkWeQMiwH.jpg',
             'https://gizmodo.uol.com.br/wp-content/blogs.dir/8/files/2021/09/god-of-war-ragnarok.jpg',
@@ -57,8 +58,8 @@ export const data = [
 
 
 export const Games = [
-    {img: 'https://image.api.playstation.com/cdn/UP0082/CUSA04551_00/WkgJ8OLvEkfoZmY65B8cudKYw8Aylp1y.png', price: '99,99' },
-    {img: 'https://image.api.playstation.com/vulcan/ap/rnd/202107/3100/ki0STHGAkIF06Q4AU8Ow4OkV.png', price: '259,99'},
-    {img: 'https://m.media-amazon.com/images/I/81d47290WgL.jpg' , price: '200,00'}
+    {img: 'https://blogger.googleusercontent.com/img/a/AVvXsEia-40eXO2JH5SRa4lJ87TfAJQPuoOjv-fcMYY984Of2XnBIV2epV7hw_mD6Dkjdm8s_bhv7mPcEfdS365ssnSIgkdIx9ehIrGXSoKqdoM59PtcKiXlgKgNsrEPab2anPhsqA53Ybjunk7y7AQeRUOY6rsYEkzHJYeZavqBp7dxQZc47eH2e3B3uAp4=w1200-h630-p-k-no-nu', price: '99,99' },
+    {img: 'https://cdn.akamai.steamstatic.com/steam/apps/570/header.jpg?t=1666237243', price: '259,99'},
+    {img: 'https://www.showmetech.com.br/wp-content/uploads//2022/02/Horizon-Forbidden-West_20220213153335-1920x1024.jpg' , price: '200,00'}
 
 ]

@@ -19,7 +19,7 @@ export default function GeneroCard() {
 
 
   return (
-    <div className='generoContainer' style={{ backgroundColor: 'none', width: '200px', height: '506px'}}>
+    <div className='generoContainer' style={{ backgroundColor: 'none', width: '200px', height: '505px'}}>
       {generos.map((item,index)=>{
         return(
           <div>

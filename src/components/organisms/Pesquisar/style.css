@@ -9,6 +9,7 @@
 }
 
 .inputPesquisar{
+    color: #fff;
     width: 200px;
     height: 35px;
     background-color: rgba(199, 199, 199, 0.178);
@@ -26,6 +27,7 @@
 }
 
 .iconPesquisarLupa{
+    cursor: pointer;
     top: 5px;
     right: 5px;
     position: absolute;

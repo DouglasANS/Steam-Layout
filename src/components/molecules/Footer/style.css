@@ -1,0 +1,40 @@
+
+.small_footer{
+    height: 150px;
+    background-color: #171A21;
+    padding: 0px 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#footer_logo img{
+    width: 90px;
+    height: 25px;
+}
+
+.containerLogoFooter{
+    border-top: #8F98A0 solid 1px;
+    padding-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.textFooter {
+    color: #8F98A0;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.textFooter a{
+    font-size: 12px;
+    line-height: 16px;
+    color: #C6D4Df;
+}
+
+#footer_text{
+    padding-top: 5px;
+    width: 100%;
+}

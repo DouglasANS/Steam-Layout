@@ -31,6 +31,9 @@
     font-size: 17px;
     margin: 0 2vw;
 }
+.Menu h1:hover{
+    color: #3ce1f5;
+}
 
 .separate{
     margin: 0 5px;

@@ -40,7 +40,7 @@
     text-overflow: ellipsis;
     text-align: center;
     font-size: 12px;
-
+    padding: 3px;
 }
 
 .iconOptions{

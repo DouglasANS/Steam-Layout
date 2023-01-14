@@ -1,0 +1,39 @@
+.preVendaContainer {
+    width: 300px;
+    height: 350px;
+}
+
+.preVendaContainer h1 {
+    margin: 5px 0px 10px 20px ;
+    font-size: 18px;
+}
+
+.preVendaContainer img{
+    width: 260px;
+}
+
+.preVendaContainer h2, h1, p{
+    color: #fff;
+}
+
+.contentPrevenda{
+    height: 330px;
+    width: 300px;
+    padding: 0 20px;
+    background-color: #171B2D;
+}
+
+
+.contentPrevenda h2{
+    margin: 5px 0 0 0 ;
+}
+
+
+.preVendaContainer p{
+    font-size: 13px;
+    width: 260px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+

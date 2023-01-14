@@ -1,13 +1,13 @@
 .Fundo{
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/01lCIVJSjkjeeg5BYDawQi/548d2eb6b9897542dc57bd0194dc3e7f/ACV_KeyArt11__960x540.png');
+    background-image: url('https://wallpapercave.com/wp/wp2928790.jpg');
 }
 
 .Container {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    /* height: 100vh; */
     background-color: #1a191ef0;
     
 
@@ -15,7 +15,7 @@
 
 .MenuOptionsBorder{
     border-top: 1px rgba(224, 224, 224, 0.247) solid;
-    
+    border-bottom: 1px rgba(224, 224, 224, 0.247) solid;
 }
 
 
@@ -25,5 +25,9 @@
 
 .generoBorder{
     border-left: 1px rgba(224, 224, 224, 0.247) solid;
-    border-bottom: 1px rgba(224, 224, 224, 0.247) solid;
+     
+}
+
+.boxPromo{
+    border-top: 1px rgba(224, 224, 224, 0.247) solid;
 }

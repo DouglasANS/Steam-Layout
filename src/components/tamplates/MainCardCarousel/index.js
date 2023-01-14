@@ -8,6 +8,8 @@ export default function MainCardCarousel() {
     const [totalGames, setTotalGames] = useState([])
     const [currentGameSelected, setCurrentGameSelected] = useState(0)
 
+    const [resetPackImg, setResetPackImg] = useState(true)
+
     useEffect(()=>{
         var newTotalGames = data.map((item, index)=>{
             return {id: index}
@@ -18,6 +20,7 @@ export default function MainCardCarousel() {
     },[])
 
     const handleChangeGame = (index) =>{
+        setResetPackImg(!resetPackImg)
         console.log('222', index, data.length,currentGameSelected)
         if(index === undefined){
             if(data.length === currentGameSelected +1){
@@ -32,7 +35,7 @@ export default function MainCardCarousel() {
 
   return (
     <div style={{width: '1050px'}}>
-        <MainCard data={data} currentGameSelected={currentGameSelected} handleChangeGame={handleChangeGame}/>
+        <MainCard data={data} currentGameSelected={currentGameSelected} handleChangeGame={handleChangeGame} resetPackImg={resetPackImg}/>
         <div style={{display: 'flex', justifyContent: 'end', width: '1050px'}}>
             {
                 
