@@ -2,7 +2,7 @@ import React from 'react'
 //import { data } from '../../../MockBack'
 import SimpleIconButton from '../../atoms/SimpleIconButton'
 import TypeCategory from '../../atoms/TypeCategory'
-import teste from '../../../assets/img/teste.svg'
+import svgMain from '../../../assets/img/svgMain.svg'
 import './style.css'
 import CarouselCard from '../../molecules/CarouselCard'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -11,7 +11,7 @@ import { faChevronRight } from '@fortawesome/free-solid-svg-icons'
 export default function MainCard({data, currentGameSelected, handleChangeGame, resetPackImg}) {
   return (
     <div className='MainCard'>
-        <img className='SvgTeste' src={teste}/>
+        <img className='SvgTeste' src={svgMain}/>
         <div style={{position: 'absolute', padding: '20px 15px'}}>
 
         

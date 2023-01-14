@@ -3,7 +3,7 @@
     height: 390px;
     min-width: 1050px;
     width: 1050px;
-
+    
     /* border-radius: 10px; */
     display: flex;
     flex-direction: column;
@@ -13,6 +13,7 @@
 
 .SvgTeste{
     width: 1050px;
+    
 }
 
 .Card{
@@ -91,7 +92,7 @@
 
 .ArrowRightMainCard{
     position: absolute;
-    right: 10px;
+    right: 20px;
     top: 90px;
     cursor: pointer;
     user-select: none;

@@ -1,7 +1,15 @@
-.Fundo{
+.Fundo{  
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url('https://wallpapercave.com/wp/wp2928790.jpg');
+}
+
+@media (max-width: 1434px)
+{
+  .Fundo
+   {
+    width: max-content;
+   }
 }
 
 .Container {

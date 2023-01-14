@@ -1,10 +1,11 @@
 .especialContainer{
+    
     width: 730px;
     height: 250px;
 }
 
 .especialContainer h1{
-    margin: 5px 0 0 0 ;
+    margin: 10px 0 10px 0 ;
     font-size: 17px;
 }
 
@@ -32,6 +33,7 @@
 }
 
 .contentEspecial{
+    box-shadow: 8px 9px 7px rgba(8, 8, 8, 0.363);
     width: 790px;
     height: 300px;
     background-color: #181a29;

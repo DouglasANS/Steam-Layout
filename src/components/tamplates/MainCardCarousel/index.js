@@ -41,7 +41,7 @@ export default function MainCardCarousel() {
                 
                 totalGames.map((item, index)=>{
                     return(
-                        <div onClick={()=>{handleChangeGame(index)}} className='selectedGame'>
+                        <div onClick={()=>{handleChangeGame(index)}} className='selectedGame' style={{backgroundColor: currentGameSelected === index ? 'grey' : '#333' }}>
 
                         </div>
                     )
